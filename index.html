@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Janitha Rajapakse | IT Support Specialist | Lappeenranta</title>
+<meta name="description" content="Janitha Rajapakse is an IT Support Specialist in Lappeenranta, Finland, with experience in Windows, macOS, Microsoft 365, Active Directory and networking.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&family=JetBrains+Mono:wght@400&display=swap">
+<style>
+:root{--bg:#f5f7fa;--card:#fff;--ink:#101923;--mute:#586572;--line:#d8dfe6;--acc:#1f5fbf;--accbg:#e4edfb;--code:#0f1a26;--codeink:#d6e2ee;--k:#7fb2ff;--s:#8fe0b0}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d141b;--card:#151f29;--ink:#e7eef5;--mute:#93a3b2;--line:#27343f;--acc:#6ea4f2;--accbg:#1a2b42}}
+:root[data-theme="dark"]{--bg:#0d141b;--card:#151f29;--ink:#e7eef5;--mute:#93a3b2;--line:#27343f;--acc:#6ea4f2;--accbg:#1a2b42}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.65 Sora,system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:var(--acc)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--acc);outline-offset:3px;border-radius:6px}
+.skip{position:absolute;left:-999px}.skip:focus{left:12px;top:12px;background:var(--card);padding:8px 12px;z-index:20}
+.wrap{max-width:1040px;margin:0 auto;padding:0 22px}
+header.nav{position:sticky;top:0;z-index:10;background:var(--bg);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top,0px)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;height:60px}
+.logo{font-weight:800;font-size:1.3rem;text-decoration:none;color:var(--ink)}
+.logo span{color:var(--acc)}
+nav ul{display:flex;gap:20px;list-style:none;margin:0;padding:0;overflow-x:auto}
+nav a{color:var(--mute);text-decoration:none;font-size:.95rem;white-space:nowrap}
+nav a:hover{color:var(--ink)}
+section{padding:84px 0 0}
+.hero{padding-top:64px;display:grid;grid-template-columns:1.2fr 1fr;gap:40px;align-items:center}
+.tag{color:var(--acc);font-weight:600;margin:0 0 14px}
+h1{font-size:clamp(2.6rem,7vw,4.6rem);line-height:1;margin:0 0 20px;font-weight:800;letter-spacing:-.03em}
+h2{font-size:clamp(1.7rem,4vw,2.4rem);line-height:1.15;margin:6px 0 20px;font-weight:800;letter-spacing:-.02em;max-width:22ch}
+h3{font-size:1.15rem;margin:0 0 4px;font-weight:600}
+.lead{color:var(--mute);max-width:52ch;margin:0 0 26px}
+.btns{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:14px}
+.btn{display:inline-block;padding:11px 20px;border-radius:10px;font-weight:600;text-decoration:none;border:1.5px solid var(--acc);font-family:inherit;font-size:1rem;cursor:pointer}
+.btn.p{background:var(--acc);color:var(--bg)}
+.btn.s{background:transparent;color:var(--acc)}
+.links a{margin-right:18px;font-size:.95rem}
+.code{background:var(--code);color:var(--codeink);border-radius:14px;padding:20px 22px;font:400 .92rem/1.7 "JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;overflow-x:auto}
+.code .f{color:#8da2b5;margin-bottom:10px}
+.code .k{color:var(--k)}.code .s{color:var(--s)}
+.techs{display:flex;flex-wrap:wrap;gap:10px;margin-top:40px;align-items:center}
+.techs b{color:var(--mute);font-weight:600;font-size:.9rem;margin-right:6px}
+.chip{background:var(--accbg);color:var(--acc);border-radius:99px;padding:3px 13px;font-size:.88rem;font-weight:600}
+.num{color:var(--acc);font-weight:600}
+.about{display:grid;grid-template-columns:1fr 1.6fr;gap:40px}
+.id{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px;align-self:start}
+.av{width:64px;height:64px;border-radius:50%;background:var(--acc);color:var(--bg);display:grid;place-items:center;font-weight:800;font-size:1.3rem;margin-bottom:14px}
+.id p{margin:0 0 8px;color:var(--mute);font-size:.95rem}
+.id dl{margin:16px 0 0}.id dt{color:var(--mute);font-size:.85rem}.id dd{margin:0 0 10px;font-weight:600}
+.about p.t{margin:0 0 16px;max-width:60ch}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:36px}
+.cols h4{margin:0 0 14px;color:var(--mute);font-size:.95rem;font-weight:600}
+.item{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px;margin-bottom:16px}
+.item .org{color:var(--acc);font-weight:600;margin:0}
+.item .when{color:var(--mute);font-size:.9rem;margin:0 0 10px}
+.item p.d{margin:0 0 12px;color:var(--mute);font-size:.98rem}
+.item ul.b{margin:0 0 12px;padding-left:18px;color:var(--mute);font-size:.95rem}
+.item ul.b li{margin-bottom:4px}
+.tags{display:flex;flex-wrap:wrap;gap:8px;list-style:none;margin:0;padding:0}
+.tags li{border:1px solid var(--line);border-radius:99px;padding:1px 12px;font-size:.85rem;color:var(--mute)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.grid .item{margin:0}
+.conn{display:grid;grid-template-columns:1.4fr 1fr;gap:40px}
+.conn ul.o{padding-left:20px;margin:0 0 20px}
+.mail{font-family:"JetBrains Mono",ui-monospace,monospace;font-size:.92rem;margin:10px 0 0;word-break:break-all}
+footer{margin-top:88px;border-top:1px solid var(--line);padding:32px 0 calc(32px + env(safe-area-inset-bottom,0px));color:var(--mute);font-size:.92rem}
+footer .wrap{display:flex;flex-wrap:wrap;gap:12px 32px;justify-content:space-between}
+footer a{margin-right:14px}
+@media (max-width:760px){.hero,.about,.conn{grid-template-columns:1fr}.nav .wrap{height:auto;padding-top:10px;padding-bottom:10px;flex-wrap:wrap}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+<header class="nav"><div class="wrap">
+<a class="logo" href="#home">JR<span>.</span></a>
+<nav aria-label="Main"><ul>
+<li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#experience">Experience</a></li><li><a href="#skills">Skills</a></li><li><a href="#contact">Contact</a></li>
+</ul></nav>
+</div></header>
+
+<main id="main" class="wrap">
+
+<section id="home" class="hero" style="padding-top:64px">
+<div>
+<p class="tag">IT Support · Windows &amp; macOS · Networks</p>
+<h1>JANITHA RAJAPAKSE</h1>
+<p class="lead">IT Support Specialist who keeps people working: fixing hardware and software problems, setting up and deploying workstations, managing user accounts and restoring network access, onsite and remotely.</p>
+<div class="btns">
+<a class="btn p" href="#experience">View Experience ↓</a>
+<a class="btn s" href="assets/files/Janitha_Rajapakse_CV.pdf" download>Download CV ↓</a>
+</div>
+</div>
+<div class="code" role="img" aria-label="Profile summary written as code">
+<div class="f">profile.js</div>
+<div><span class="k">const</span> specialist = {</div>
+<div>&nbsp;&nbsp;name: <span class="s">"Janitha Rajapakse"</span>,</div>
+<div>&nbsp;&nbsp;location: <span class="s">"Lappeenranta, FI"</span>,</div>
+<div>&nbsp;&nbsp;focus: [</div>
+<div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="s">"IT Support L1/L2"</span>,</div>
+<div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="s">"Active Directory"</span>,</div>
+<div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="s">"Networking"</span></div>
+<div>&nbsp;&nbsp;],</div>
+<div>&nbsp;&nbsp;since: <span class="s">"2016"</span></div>
+<div>};</div>
+</div>
+</section>
+
+<div class="techs"><b>TECHNOLOGIES I WORK WITH</b>
+<span class="chip">Windows</span><span class="chip">macOS</span><span class="chip">Microsoft 365</span><span class="chip">Active Directory</span><span class="chip">Jira Service Management</span><span class="chip">ServiceNow</span><span class="chip">CCNA</span>
+</div>
+
+<section id="about">
+<p class="num">01.</p>
+<h2>Helping users get back to work.</h2>
+<div class="about">
+<aside class="id">
+<div class="av">JR</div>
+<h3>Lappeenranta, Finland</h3>
+<p>IT support since 2016</p>
+<dl>
+<dt>Based in</dt><dd>Lappeenranta, Finland</dd>
+<dt>Background</dt><dd>IT Support and Service Desk</dd>
+<dt>Languages</dt><dd>English (fluent), Finnish (A1.3)</dd>
+</dl>
+</aside>
+<div>
+<p class="t">I'm Janitha, an IT support professional with hands-on experience in onsite and remote technical support for Windows and macOS environments.</p>
+<p class="t">I've worked in IT support since 2016, starting as an intern and growing into an L1/L2 IT Support Specialist. I troubleshoot hardware, software, operating systems, Microsoft 365, Active Directory, network connectivity and workstation problems, and I record every incident clearly in ticketing systems like Jira Service Management.</p>
+<p class="t">People know me as reliable and patient, and I focus on getting users working again with as little disruption as possible.</p>
+</div>
+</div>
+</section>
+
+<section id="experience">
+<p class="num">02.</p>
+<h2>Experience and education.</h2>
+<div class="cols">
+<div>
+<h4>Experience</h4>
+
+<article class="item">
+<h3>IT Support Specialist</h3>
+<p class="org">Fixibit Computer Solutions, Colombo</p>
+<p class="when">10/2022 – 08/2025</p>
+<ul class="b">
+<li>Onsite and remote L1/L2 support for Windows, endpoints, hardware, software and networks.</li>
+<li>Deployed Windows workstations and business applications, and onboarded new users.</li>
+<li>Managed Active Directory accounts: password resets, unlocks, permissions and access.</li>
+<li>Fixed TCP/IP, DNS, DHCP, LAN/WAN, Wi-Fi and VPN issues.</li>
+<li>Tracked incidents in ServiceNow and Jira Service Management, with clear documentation.</li>
+<li>Supported asset lifecycle: inventory, deployment, maintenance and replacement.</li>
+</ul>
+<ul class="tags"><li>Windows Server</li><li>Microsoft 365</li><li>Active Directory</li><li>Networking</li><li>ITSM</li></ul>
+</article>
+
+<article class="item">
+<h3>IT Support Technician</h3>
+<p class="org">E-Globe Solutions, Colombo</p>
+<p class="when">01/2021 – 09/2022</p>
+<p class="d">Diagnosed and repaired desktop and laptop issues, configured Windows workstations, helped troubleshoot network problems and documented support work.</p>
+<ul class="tags"><li>Hardware Repair</li><li>Workstation Setup</li><li>Documentation</li></ul>
+</article>
+
+<article class="item">
+<h3>IT Support Assistant</h3>
+<p class="org">E-Globe Solutions, Colombo</p>
+<p class="when">01/2017 – 12/2020</p>
+<p class="d">Handled end-user requests for desktop, application and peripheral issues, maintained workstations and shared devices, and kept equipment records for deployment.</p>
+<ul class="tags"><li>Help Desk</li><li>Asset Records</li><li>Peripherals</li></ul>
+</article>
+
+<article class="item">
+<h3>IT Intern</h3>
+<p class="org">E-Globe Solutions, Colombo</p>
+<p class="when">06/2016 – 12/2016</p>
+<p class="d">Assisted senior technicians with hardware installation and maintenance, ran routine inspections and configured printers and peripherals.</p>
+<ul class="tags"><li>Hardware</li><li>Printers</li><li>Troubleshooting</li></ul>
+</article>
+</div>
+
+<div>
+<h4>Education</h4>
+<article class="item">
+<h3>BSc (Hons) in IT, Information Technology</h3>
+<p class="org">SLIIT, Colombo</p>
+<p class="when">2011 – 2015</p>
+<p class="d">Sri Lanka Institute of Information Technology, specialising in Information Technology.</p>
+</article>
+<article class="item">
+<h3>Cisco Certified Network Associate (CCNA)</h3>
+<p class="org">Colombo</p>
+<p class="when">2017</p>
+<p class="d">Cisco networking certification, completed in 2017.</p>
+</article>
+</div>
+</div>
+</section>
+
+<section id="skills">
+<p class="num">03.</p>
+<h2>Tools and technologies behind my work.</h2>
+<div class="grid">
+<article class="item"><h3>Operating systems</h3><p class="d">Day-to-day support and setup across desktops, laptops and servers.</p><ul class="tags"><li>macOS</li><li>Windows 10/11</li><li>Windows Server</li></ul></article>
+<article class="item"><h3>IT support</h3><p class="d">Troubleshooting and user support, in person and remotely.</p><ul class="tags"><li>Hardware &amp; Software Troubleshooting</li><li>Desktop &amp; Laptop Support</li><li>Microsoft 365</li><li>Active Directory</li><li>Remote Desktop Support</li></ul></article>
+<article class="item"><h3>Networking</h3><p class="d">Diagnosing and restoring connectivity.</p><ul class="tags"><li>TCP/IP</li><li>DNS</li><li>DHCP</li><li>LAN/WAN</li><li>Wi-Fi</li><li>VPN</li></ul></article>
+<article class="item"><h3>IT tools</h3><p class="d">Ticketing, remote access and deployment.</p><ul class="tags"><li>Jira Service Management</li><li>ServiceNow</li><li>Remote Support Tools</li><li>System Imaging</li><li>Software Deployment</li></ul></article>
+<article class="item"><h3>Hardware</h3><p class="d">Installing and configuring equipment.</p><ul class="tags"><li>Desktops &amp; Laptops</li><li>Printers</li><li>Scanners</li><li>Mobile Devices</li><li>Peripherals</li></ul></article>
+<article class="item"><h3>Languages and licence</h3><p class="d">English (fluent), Finnish (A1.3). Driving licence category B.</p></article>
+</div>
+</section>
+
+<section id="contact">
+<p class="num">04.</p>
+<h2>Let's connect.</h2>
+<div class="conn">
+<div>
+<p class="lead">I'm interested in IT support roles where I can solve technical problems, help users and keep services reliable.</p>
+<p><b>Open to opportunities in:</b></p>
+<ul class="o"><li>IT Support</li><li>Service Desk / Desktop Support</li></ul>
+<div class="btns">
+<button class="btn p" id="copy" type="button">Copy Email</button>
+<a class="btn s" href="mailto:janithrajapakse@gmail.com">Send Email</a>
+<a class="btn s" href="tel:+358413672912">Call +358 41 3672912</a>
+</div>
+<p class="mail" id="mail" aria-live="polite">janithrajapakse@gmail.com</p>
+</div>
+<aside class="id">
+<p>Profile / status</p>
+<h3>Janitha Rajapakse</h3>
+<p>Lappeenranta, Finland</p>
+<dl><dt>Focus</dt><dd>IT Support · Windows · Networking</dd><dt>Status</dt><dd>Open to opportunities</dd></dl>
+</aside>
+</div>
+</section>
+</main>
+
+<footer><div class="wrap">
+<div><a class="logo" href="#home">JR<span>.</span></a><br>Janitha Rajapakse · IT Support Specialist</div>
+<div><a href="#home">Home</a><a href="#about">About</a><a href="#experience">Experience</a><a href="#skills">Skills</a></div>
+<div><a href="assets/files/Janitha_Rajapakse_CV.pdf" download>CV ↓</a><a href="mailto:janithrajapakse@gmail.com">Email</a><a href="#home">Back to top ↑</a></div>
+</div></footer>
+
+<script>
+document.getElementById('copy').addEventListener('click',function(){
+var b=this,m=document.getElementById('mail'),t='janithrajapakse@gmail.com';
+function done(ok){b.textContent=ok?'Copied!':'Copy failed';setTimeout(function(){b.textContent='Copy Email'},2000)}
+try{navigator.clipboard.writeText(t).then(function(){done(true)},function(){done(false)})}catch(e){done(false)}
+});
+</script>
+</body>
+</html>
